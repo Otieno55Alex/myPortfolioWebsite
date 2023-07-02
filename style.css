@@ -1,19 +1,28 @@
-nav {
+ body {
+background-color: rgb(226, 209, 209);
+ }
+ nav {
    height: 150px;
    display: flex;
    flex-flow: row nowrap;
    justify-content: space-between;
-   background-color: gray;
+   background-color: rgb(116, 2, 2);
    border: solid 1px;
+   box-shadow: 0 5px 5px 0 rgb(43, 38, 38);
 }
 .intro-photo img {
     width: 150px;
     height: 150px;
     float: left;
+   
 }
 h1 {
     font-size: 60px;
-    color: rgb(31, 31, 73);
+    color: rgb(194, 189, 189);
+}
+h2 {
+    font-size: 46px;
+    color: maroon;
 }
 button {
     border-radius: 20px;
@@ -40,10 +49,12 @@ button a:hover {
     padding: 20px;
     font-size: 24px;
     border-radius: 20px;
+    box-shadow: -5px 5px 5px 12px rgba(29, 24, 24, 0.2), -6px 12px 18px 18px rgba(56, 16, 16, 0.4);
 }
 .photos img {
     height: 600px;
     width: 600px;
+    box-shadow: 5px 5px 5px 4px rgb(43, 38, 38);
 }
 .my-skills img {
    height: 400px;
@@ -95,7 +106,7 @@ footer img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: beige;
+    background-color: rgb(179, 163, 163);
 }
 .gallery-photos img {
 width: 600px;
